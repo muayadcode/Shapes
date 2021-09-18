@@ -23,7 +23,7 @@
 Circle::Circle(char* newColour, float newRadius) : Shape((char*) "Circle", newColour)
 {
 	//validation
-	if (newRadius >= 0.00)
+	if (newRadius >= 0.001)
 	{
 		radius = newRadius;
 	}
